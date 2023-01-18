@@ -18,7 +18,6 @@ class Server(SimpCommunication):
     """
     def bind(self) -> None:
         self.connection.bind((self.host, self.port))
-        self.connection.settimeout(None)
 
 
 
